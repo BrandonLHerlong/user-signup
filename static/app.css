@@ -1,0 +1,50 @@
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    width: auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+  }
+  
+  body {
+    padding: 50px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 5px solid rgb(14, 199, 199);
+    padding: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(14, 199, 199);
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(14, 199, 199);
+    color: white;
+    transition: background-color 250ms;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: rgb(14, 199, 199);
+    border: 1px solid aqua;
+    background-color: white;
+  }
+  .error {
+    color: red;
+  }

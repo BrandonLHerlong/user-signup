@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="static/app.css" />
+  </head>
+  <body>
+    <form action="/usersignup" id="form" method="POST">
+        <h1>Register</h1>
+        
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" value="" required/>
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" value="" required />
+    
+        <label for="password">Re-enter your password</label>
+        <input type="password" name="password2" id="password2" value="" required />
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" value="" placeholder="optional" />
+    
+        <button type="submit">Register</button>
+  </form>
+ </body>
+</html>
